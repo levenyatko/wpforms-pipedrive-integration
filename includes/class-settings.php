@@ -114,7 +114,6 @@
                 );
 
             echo '</div>';
-            echo '<style>.lead-label-card{padding: 5px 10px;display: inline-block;background: #d5d5d5;border-radius: 6px;margin: 5px;cursor: pointer;}</style>';
         }
 
         public function admin_scripts()
@@ -122,6 +121,8 @@
             if ( empty($_GET['page']) || 'wpforms-builder' != $_GET['page'] || empty($_GET['view']) || 'settings' != $_GET['view'] ) {
                 return;
             }
+
+            wp_enqueue_style( 'wpforms-pipedrive-admin', WPFPD_PLUGIN_DIR_URL . 'assets/css/admin.css', [], '1.0' );
 
             wp_enqueue_script( 'wpforms-pipedrive-admin', WPFPD_PLUGIN_DIR_URL . 'assets/js/admin.js', ['jquery'], '1.0' );
         }

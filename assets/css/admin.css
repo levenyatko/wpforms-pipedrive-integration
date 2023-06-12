@@ -1,0 +1,16 @@
+.lead-label-card{
+    padding: 5px 10px;
+    display: inline-block;
+    background: #f8f8f8;
+    color: #777777;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+}
+.lead-label-card:hover {
+    background: #eeeeee;
+}
+.lead-label-card.active {
+    color: #fff;
+    background: #e27730
+}

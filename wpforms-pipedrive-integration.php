@@ -3,7 +3,7 @@
     Plugin Name: WPForms Pipedrive integration
     Description: The plugin allows to send WPForms data to the Pipedrive CRM
     Author: Daria Levchenko
-    Version: 0.5.0
+    Version: 1.0.0
     Requires at least: 4.9
     Requires PHP: 7.4
     License: GPLv3
